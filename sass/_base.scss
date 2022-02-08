@@ -11,7 +11,8 @@ h3 {
 .wrapper {
   position: relative;
   word-wrap: break-word;
-  max-width: 96vw;
+  // max-width: 96vw;
+  // max-height: 96vh;
 
   header {
     background-color: #9a727d;
@@ -24,12 +25,12 @@ h3 {
 
   main {
     display: flex;
-    align-items: center;
+    //  max-height: 100vh;
 
     section:first-child {
       background-color: #f4e7dd;
       min-width: 45vw;
-      min-height: 100vh;
+      // min-height: 100vh;
       border-top-left-radius: 10px;
 
       article {
@@ -56,26 +57,39 @@ h3 {
 
     section:last-child {
       min-width: 45vw;
-      min-height: 100vh;
+      // min-height: 100vh;
 
       .left-top {
         background-color: #d2ccc3;
-        height: 10vh;
+        min-height: 10vh;
         border-top-right-radius: 10px;
       }
 
       .left-center {
         background-color: #f4e7dd;
-        height: 10vh;
+        min-height: 10vh;
       }
 
       .left-bottom {
         background-color: #d2ccc3;
-        height: 77.7vh;
+        min-height: 75vh;
         border-bottom-right-radius: 10px;
         padding-left: 10%;
         padding-top: 12%;
       }
+
+       a {
+          color: rgb(36, 33, 33);
+          font-size: 1.7rem;
+          padding: 5px;
+          animation: icen 1s linear 2s infinite alternate;
+          position: relative;
+
+          :hover {
+            transition: font-size 0.5s ease-in-out;
+            font-size: 1.9rem;
+          }
+        }
     }
   }
 }

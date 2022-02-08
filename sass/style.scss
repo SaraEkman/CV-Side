@@ -1,1 +1,4 @@
 @import '_base.scss';
+@media screen and (min-width: 500px) {
+    @import '_desktop';
+}
