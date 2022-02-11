@@ -1,6 +1,7 @@
-// body {
-//   background-color: rgb(36, 32, 34);
-// }
+body {
+  background-color: rgba(19, 2, 10, 0.726);
+  
+}
 
 h3 {
   color: #6e5748;
@@ -11,8 +12,8 @@ h3 {
 .wrapper {
   position: relative;
   word-wrap: break-word;
-  // max-width: 96vw;
-  // max-height: 96vh;
+  font-family: 'Quintessential', cursive;
+  
 
   header {
     background-color: #9a727d;
@@ -21,12 +22,23 @@ h3 {
     top: 3rem;
     height: 14vh;
     padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+
+    h1 {
+      font-family: 'Playfair Display SC', serif;
+    }
   }
 
   main {
     display: flex;
-    //  max-height: 100vh;
 
+    img {
+      border-radius: 10px;
+    }
+    
     section:first-child {
       background-color: #f4e7dd;
       min-width: 45vw;
