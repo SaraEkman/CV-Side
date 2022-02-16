@@ -1,0 +1,20 @@
+body {
+    .wrapper {
+      font-size: larger;
+    // header {
+    // }
+    main {
+      section:first-child {
+        article {
+          top: 20rem;
+        }
+      }
+
+      section:last-child {
+        .left-bottom {
+          padding-top: 12%;
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,25 @@
+body {
+  .wrapper {
+    font-size: large;
+       header {
+        //   height: 20vh;
+        h2 {
+            margin-top: 2.5rem;
+        }
+      }
+    main {
+      section:first-child {
+        article {
+          top: 17rem;
+        }
+      }
+      
+      section:last-child {
+        .left-bottom {
+          min-height: 90vh;
+        padding-top: 20%;
+      }
+    }
+  }
+}
+}
