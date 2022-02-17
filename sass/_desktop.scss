@@ -1,18 +1,27 @@
 body {
     .wrapper {
       font-size: larger;
-    // header {
-    // }
+    header {
+        height: 25vh;
+    }
     main {
       section:first-child {
-        article {
-          top: 20rem;
+        top: 5rem;
+         article:nth-child(4) {
+          a {
+             padding-left: 1rem;
+          }
         }
       }
 
       section:last-child {
         .left-bottom {
-          padding-top: 12%;
+          div {
+            h3 {
+                padding-top: 7rem;
+              max-width: 270px;
+            }
+          }
         }
       }
     }
