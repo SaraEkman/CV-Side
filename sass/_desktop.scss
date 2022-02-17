@@ -1,15 +1,14 @@
 body {
-    .wrapper {
-      font-size: larger;
-    header {
-        height: 25vh;
-    }
+  .wrapper {
+    font-size: larger;
     main {
+      padding-top: 60px;
+      min-height: 100vh;
       section:first-child {
-        top: 5rem;
-         article:nth-child(4) {
+        padding-top: 35px;
+        article:nth-child(4) {
           a {
-             padding-left: 1rem;
+            padding-left: 1rem;
           }
         }
       }
@@ -18,7 +17,6 @@ body {
         .left-bottom {
           div {
             h3 {
-                padding-top: 7rem;
               max-width: 270px;
             }
           }

@@ -1,9 +1,9 @@
 @import '_base.scss';
 
-@media screen and (min-width: 740px){
+@media screen and (min-width: 700px){
     @import '_tablet';
     
 }
-@media screen and (min-width: 1010px) {
+@media screen and (min-width: 1200px) {
     @import '_desktop';
 }
