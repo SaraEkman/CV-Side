@@ -3,19 +3,17 @@ body {
     font-size: larger;
     main {
       section:first-child {
-        article:nth-child(4) {
-          a {
-            padding-left: 1rem;
-          }
+        article:first-child {
+          margin-top: 550px;
         }
       }
-      
+
       section:last-child {
         .left-bottom {
           min-height: 100vh;
           div {
             h3 {
-              max-width: 270px;
+              max-width: 280px;
             }
           }
         }
