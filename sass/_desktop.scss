@@ -2,12 +2,6 @@ body {
   .wrapper {
     font-size: larger;
     main {
-      section:first-child {
-        article:first-child {
-          margin-top: 700px;
-        }
-      }
-
       section:last-child {
         .left-bottom {
           min-height: 100vh;

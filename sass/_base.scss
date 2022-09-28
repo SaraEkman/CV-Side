@@ -10,27 +10,33 @@ body {
     position: relative;
 
     header {
-      background-color: #9a727d;
-      min-width: 70vw;
-      position: absolute;
-      top: 3rem;
-      left: 0px;
-      min-height: 20vh;
-      padding: 10px;
-      display: flex;
-      flex-direction: column;
-      align-items: center;
+      position: relative;
+      width: 100%;
+      height: 88px;
+      background-color: #d2ccc3;
+      div {
+        background-color: #9a727d;
+        min-width: 70vw;
+        position: absolute;
+        top: 3rem;
+        left: 0px;
+        min-height: 20vh;
+        padding: 10px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
 
-      h1 {
-        font-family: 'Playfair Display SC', serif;
-      }
-      h2 {
-        margin-top: 3rem;
+        h1 {
+          font-family: 'Playfair Display SC', serif;
+        }
+        h2 {
+          margin-top: 3rem;
+        }
       }
     }
 
     main {
-      padding-top: 280px;
+      margin-top: 209px;
 
       a {
         text-decoration: none;
@@ -114,14 +120,6 @@ body {
         flex-direction: column;
         align-items: center;
         justify-content: center;
-
-        .left-top {
-          background-color: #d2ccc3;
-        }
-
-        .left-center {
-          background-color: #f4e7dd;
-        }
 
         .left-bottom {
           background-color: #d2ccc3;
