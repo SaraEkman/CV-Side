@@ -1,12 +1,13 @@
 body {
   background-color: #f4e7dd;
-
+  
   h3 {
     color: #6e5748;
+    font-family: 'Noto Serif', serif;
   }
 
   .wrapper {
-    font-family: 'Quintessential', cursive;
+    font-family: 'Roboto Condensed', sans-serif;
     position: relative;
 
     header {
@@ -54,9 +55,10 @@ body {
         justify-content: center;
 
         article:nth-child(1) {
-          max-width: 210px;
+          max-width: 280px;
           p:first-child {
             word-break: break-all;
+            font-weight: bolder;
           }
         }
 
@@ -101,7 +103,7 @@ body {
           align-items: center;
           justify-content: center;
           a img {
-            width: 200px;
+            width: 250px;
             height: auto;
             margin-top: 1.5rem;
             margin: 10px;
@@ -152,7 +154,7 @@ body {
             a img {
               margin-left: 0%;
               margin: 10px;
-              width: 200px;
+              width: 250px;
               height: auto;
               transition: transform 0.5s ease-in-out;
 
